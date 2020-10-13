@@ -6,17 +6,53 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-<a href="index.html">страница1</a>
-<a href="index2.html">страница2</a>
-<a href="index3.html">страница3</a>
-<a href="index4.html">страница4</a>
-<a href="index5.html">страница5</a>
-<a href="index6.html">страница6</a>
-<a href="profile.html">страница7</a>
+<main class="home">
+    <div class="container">
+        <a href="index.html" class="links-white">страница1</a>
+        <a href="index2.html" class="links-white">страница2</a>
+        <a href="index3.html" class="links-white">страница3</a>
+        <a href="index4.html" class="links-white">страница4</a>
+        <a href="index5.html" class="links-white">страница5</a>
+        <a href="index6.html" class="links-white">страница6</a>
+        <a href="profile.html" class="links-white">страница7</a>
 
+        <a href="#modal__transfer1" class="btn btn-accent open_modal">успешный перевод</a>
+        <a href="#modal__transfer2" class="btn btn-accent open_modal">Ошибка перевода</a>
+
+    </div>
+</main>
+
+<div class="modal__div" id="modal__transfer1">
+    <div class="modal__wrapper">
+        <div class="modal-img"><img src="img/check-modal.png" alt=""></div>
+        <div class="text-modal text-center">
+            <p>Перевод успешно выполнен!</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal__div" id="modal__transfer2">
+    <div class="modal__wrapper">
+        <div class="modal-img"><img src="img/close-modal.png" alt=""></div>
+        <div class="text-modal text-center">
+            <p>Ошибка перевода.</p>
+            <p>Повторите операцию позже</p>
+        </div>
+    </div>
+</div>
+<div class="overlay"></div><!-- Пoдлoжкa -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
 
 </body>
 </html>

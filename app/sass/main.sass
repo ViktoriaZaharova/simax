@@ -662,6 +662,70 @@ button
 .links-edit-text
   margin: 0 17px 0 0
 
+.links-white
+  display: block
+  color: white
+  width: 100%
+
+.modal__div
+  position: fixed
+  max-width: 516px
+  width: 100%
+  height: 100%
+  top: 45%
+  left: 50%
+  transform: translate(-50%, -50%)
+  z-index: 101
+  overflow: auto
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  display: none
+  opacity: 0
+
+  .modal__wrapper
+    width: 100%
+    height: auto
+    overflow: auto
+    margin: 50px auto
+    padding: 125px 90px 135px
+    box-sizing: border-box
+    position: relative
+    text-align: center
+    background: #141A21 url("../img/pattern4.png") no-repeat right bottom
+      size: contain
+    border-radius: 3px
+
+.text-modal
+  font-size: 24px
+  font-family: 'Lato', sans-serif
+
+
+.overlay
+  z-index: 100
+  position: fixed
+  background-color: #000
+  opacity: 0.8
+  -moz-opacity: 0.8
+  filter: alpha(opacity = 80)
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  cursor: pointer
+  display: none
+
+.modal-img
+  margin: 0 auto 60px
+  display: flex
+  align-items: center
+  justify-content: center
+  border-radius: 50%
+  overflow: hidden
+  max-width: 178px
+  width: 100%
+
+
 
 @import "media"
 // Всегда в конце
