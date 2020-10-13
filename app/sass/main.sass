@@ -842,6 +842,8 @@ table
 
 //about
 .about
+  background: url("../img/pattern.png") no-repeat left center
+    size: contain
   .container
     max-width: 1200px
   .profile-top
@@ -907,10 +909,169 @@ h2
   border-radius: 50%
   width: 100px
   height: 100px
-  box-shadow: 0px 4px 30px rgba(41, 50, 181, 0.4)
+  box-shadow: 0 4px 30px rgba(41, 50, 181, 0.4)
   background: #2932B5
   padding: 13px
   margin: 0 auto 40px
+
+//.prosmining
+.prosmining
+  padding: 70px 0 119px
+  position: relative
+  background: #151B22 url("../img/pattern8.png") no-repeat right top
+    size: contain
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 525px
+    height: 707px
+    background: url("../img/pattern7.png") no-repeat center
+      size: contain
+  .profile-top
+    margin: 0 0 117px
+
+.prosmining-wrapper
+  display: flex
+  align-items: stretch
+  justify-content: space-between
+  flex-wrap: wrap
+  width: 100%
+
+.prosmining-box
+  margin: 0 0 70px
+  background: #19202A
+  border-radius: 3px
+  width: 49%
+  h3
+    width: 100%
+    font-size: 24px
+    font-weight: 600
+    margin: 0 0 25px
+  strong
+    font-weight: bold
+
+  .box-text
+    font-size: 18px
+    font-family: 'Lato', sans-serif
+    p
+      margin: 0 0 20px
+
+.prosmining-conditions__box
+  padding: 34px 18px 6px
+
+.prosmining-box__top
+  padding: 34px 25px 27px
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2)
+  border-radius: 3px
+
+.form-prosmining-box
+  width: 100%
+  display: flex
+  align-items: stretch
+  justify-content: space-between
+  padding: 40px 30px 30px
+  label
+    margin: 0
+    max-width: 225px
+  input
+    text-align: center
+    font-size: 24px
+    font-weight: 900
+    color: #fff
+    height: 69px
+    font-family: 'Lato', sans-serif
+    &::placeholder
+      color: #fff
+  button
+    height: 69px
+    max-width: 270px
+    font-size: 24px
+
+.list-conditions
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+  font-size: 18px
+  font-family: 'Lato', sans-serif
+  li
+    display: flex
+    align-items: center
+    margin: 0 0 28px
+    p
+      max-width: 170px
+      width: 100%
+
+.conditions-icon
+  display: flex
+  align-items: center
+  justify-content: center
+  border-radius: 50%
+  box-shadow: 0 4px 30px rgba(41, 50, 181, 0.3)
+  width: 61px
+  height: 61px
+  min-width: 61px
+  margin: 0 20px 0 0
+  background: #2932B5
+  padding: 12px
+
+.prosmining-rates
+  width: 100%
+  display: flex
+  align-items: stretch
+  flex-wrap: wrap
+  justify-content: space-between
+
+.prosmining-rate-box
+  width: 23.7%
+  display: flex
+  align-items: center
+  text-align: center
+  flex-direction: column
+  margin: 0 0 100px
+  background: #19202A
+  border-radius: 3px
+  padding: 34px 32px 39px
+  font-family: 'Lato', sans-serif
+  font-size: 18px
+  .slider-line
+    margin: 0
+
+//transaction-reward
+.transaction-reward__wrapper
+  display: flex
+  align-items: stretch
+  justify-content: space-between
+  flex-wrap: wrap
+
+.transaction-reward__box
+  background: #19202A
+  border-radius: 3px
+  width: 49%
+  padding: 33px 32px 55px
+  .slider-line-bg
+    width: 141px
+
+.transaction-reward__box-title
+  display: flex
+  align-items: center
+  margin: 0 0 58px
+  font-size: 24px
+  font-weight: 900
+  font-family: 'Lato', sans-serif
+
+.transaction-reward__icon
+  margin: 0 25px 0 0
+  width: 44px
+  height: 44px
+  min-width: 44px
+
+
+
+
 
 
 @import "media"
