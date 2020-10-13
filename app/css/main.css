@@ -471,8 +471,6 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin: 0 auto 130px; }
 
 .btn-burger {
@@ -823,7 +821,34 @@ button {
   .main-wrapper {
     margin: 40px 0 0; }
   .tabs__caption {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .tabs__content-profile {
+    padding: 30px; }
+  .description-generation-profile p {
+    font-size: 18px; }
+  .description-generation-profile strong {
+    font-size: 20px; }
+  .description-generation-profile .btn {
+    height: 60px;
+    max-width: 280px;
+    font-size: 18px; }
+  .tabs__caption-profile li {
+    padding: 20px 60px; }
+  .profile-top {
+    margin: 0 0 70px; }
+  .profile h1 {
+    font-size: 30px; }
+  .profile {
+    padding: 70px 0; }
+  .profile-information__box-val {
+    font-size: 18px; }
+  .profile-information__box p, .profile-information__box-val span {
+    font-size: 16px; }
+  .profile-information__box {
+    margin: 0 0 50px; }
+  .profile-information {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -851,10 +876,37 @@ button {
   .description-generation h3 {
     font-size: 18px; }
   .description-generation p {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .profile-information__box {
+    width: 100%;
+    max-width: none; }
+  .logo {
+    max-width: 80px; }
+  .btn-burger {
+    width: 60px;
+    height: 60px;
+    min-width: 60px; }
+  .form-profile input {
+    height: 50px; }
+  .menu-mobile {
+    padding: 20px; }
+  .menu li a {
+    font-size: 18px; }
+  .menu-icon {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    padding: 10px; }
+  .links-edit {
+    font-size: 18px; } }
 
 @media only screen and (max-width: 480px) {
-  /**/ }
+  .description-generation-profile strong {
+    font-size: 14px; }
+  .profile h1 {
+    font-size: 26px; }
+  .subtitle-text {
+    font-size: 14px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 420px) {
@@ -866,4 +918,6 @@ button {
     .tabs__caption li {
       padding: 0 0 20px; }
       .tabs__caption li:before {
-        height: 5px; } }
+        height: 5px; }
+  .tabs__caption-profile li {
+    padding: 15px 20px; } }
