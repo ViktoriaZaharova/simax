@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>SIMAX</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<div class="menu-mobile">
+    <div class="menu-mobile__top">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+        <div class="btn-close">
+            <img src="img/close.svg" alt="">
+        </div>
+    </div>
+
+    <ul class="menu">
+        <li>
+            <a href="#" class="active">
+                <span class="menu-icon"><img src="img/icon1.svg" alt=""></span>
+                <span class="menu-text">Личный кабинет</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <span class="menu-icon"><img src="img/icon2.png" alt=""></span>
+                <span class="menu-text">О SIMAX</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <span class="menu-icon"><img src="img/icon3.svg" alt=""></span>
+                <span class="menu-text">Транзакции</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <span class="menu-icon"><img src="img/icon4.svg" alt=""></span>
+                <span class="menu-text">Посмайнинг</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <span class="menu-icon"><img src="img/icon5.svg" alt=""></span>
+                <span class="menu-text">Валидаторы</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <span class="menu-icon"><img src="img/icon6.svg" alt=""></span>
+                <span class="menu-text">Настройки аккаунта</span>
+            </a>
+        </li>
+    </ul>
+
+    <a href="#" class="links-edit">
+        <span class="links-edit-text">Выход</span>
+        <span class="links-edit-icon"><img src="img/edit.svg" alt=""></span>
+    </a>
+</div>
+
+<main class="profile validators">
+    <div class="container">
+        <div class="profile-top">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <div class="profile-top__text">
+                <h1>Валидаторы</h1>
+                <div class="subtitle-text">Ваш кошелек: 0000000000000000000000</div>
+            </div>
+            <div class="btn-burger"><img src="img/burger.svg" alt=""></div>
+        </div>
+
+        <div class="reward-box">
+            <p>Доступная награда: <strong>0 SMXP</strong></p>
+            <a href="#" class="btn btn-accent">Забрать награду</a>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table-validators">
+                <thead>
+                    <tr>
+                        <th colspan="5">
+                            <div class="validators-table-title">
+                                <h6>Валидаторы</h6>
+
+                                <form method="post" class="form-search">
+                                    <label><input type="text" placeholder="Поиск..."></label>
+                                    <button type="submit"><img src="img/search.svg" alt=""></button>
+                                </form>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Идентификатор</th>
+                        <th>Активность</th>
+                        <th>Значимость</th>
+                        <th>Комиссия</th>
+                        <th>Делегировано</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><p>Кто именно</p></td>
+                        <td>
+                            <div class="item-activity bg-blue">Активен</div>
+                        </td>
+                        <td><p>000000000000000</p></td>
+                        <td><p>5%</p></td>
+                        <td><p>0</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Кто именно</p></td>
+                        <td>
+                            <div class="item-activity bg-blue">Активен</div>
+                        </td>
+                        <td><p>00000000000</p></td>
+                        <td><p>2%</p></td>
+                        <td><p>0</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Кто именно</p></td>
+                        <td>
+                            <div class="item-activity bg-blue">Активен</div>
+                        </td>
+                        <td><p>000000000</p></td>
+                        <td><p>3%</p></td>
+                        <td><p>0</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Кто именно</p></td>
+                        <td>
+                            <div class="item-activity bg-orange">В тюрьме</div>
+                        </td>
+                        <td><p>0000000000000</p></td>
+                        <td><p>1%</p></td>
+                        <td><p>0</p></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</main>
+
+<div class="modal__div modal__div-max" id="modal__transactions">
+    <div class="modal__wrapper">
+        <div class="tabs tabs-profile">
+            <ul class="tabs__caption tabs__caption-profile">
+                <li class="active">Отправить</li>
+                <li>Получить</li>
+            </ul>
+            <div class="tabs__content tabs__content-profile active">
+                <form method="post" class="form form-profile">
+                    <div class="form-row">
+                        <label>
+                            <span class="input-title">Введите адрес</span>
+                            <input type="text" required name="address">
+                        </label>
+                        <label>
+                            <span class="input-title">Введите сумму</span>
+                            <input type="text" required name="sum">
+                        </label>
+                    </div>
+                    <div class="total-sum">
+                        <p>Сумма списания: <strong>0 SMXP</strong></p>
+                    </div>
+                    <button type="submit" class="btn btn-accent">Отправить</button>
+                </form>
+            </div>
+            <div class="tabs__content tabs__content-profile">
+                <div class="description-generation description-generation-profile">
+                    <p>Ваш адрес, для получения перевода:</p>
+                    <strong>00000000000000000000000000000000000000000</strong>
+
+                    <a href="#" class="btn btn-accent">Скопировать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="overlay"></div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

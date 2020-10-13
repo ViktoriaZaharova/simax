@@ -973,21 +973,22 @@ table {
   table thead {
     font-weight: bold;
     font-size: 24px;
-    text-align: left; }
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
   table th {
     padding: 35px 20px 35px 50px; }
     table th:last-child {
       padding-right: 50px; }
-  table tr {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
   table .icon-arrow {
     display: inline;
     margin: 0 0 0 25px; }
   table tbody {
     font-size: 20px;
     font-weight: 500; }
-    table tbody tr:last-child {
-      border: none; }
+    table tbody tr {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+      table tbody tr:last-child {
+        border: none; }
   table td {
     padding: 15px 50px; }
 
@@ -1315,6 +1316,132 @@ h2 {
   height: 44px;
   min-width: 44px; }
 
+.validators .profile-top {
+  margin: 0 0 62px; }
+
+.reward-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 0 70px; }
+  .reward-box p {
+    margin: 0 0 35px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif; }
+    .reward-box p strong {
+      font-weight: 800; }
+  .reward-box .btn {
+    max-width: 376px;
+    font-size: 24px;
+    height: 76px;
+    font-weight: 600; }
+
+.validators-table-title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.form-search {
+  position: relative; }
+  .form-search input {
+    background: rgba(55, 64, 75, 0.3);
+    border-radius: 3px;
+    height: 50px;
+    padding: 0 20px 0 89px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: rgba(255, 255, 255, 0.5); }
+    .form-search input::-webkit-input-placeholder {
+      color: rgba(255, 255, 255, 0.5); }
+    .form-search input::-moz-placeholder {
+      color: rgba(255, 255, 255, 0.5); }
+    .form-search input::-ms-input-placeholder {
+      color: rgba(255, 255, 255, 0.5); }
+    .form-search input::placeholder {
+      color: rgba(255, 255, 255, 0.5); }
+  .form-search label {
+    max-width: 351px;
+    margin: 0; }
+  .form-search button {
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    left: 23px;
+    width: 27px;
+    height: 27px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: none;
+      border-radius: 0; }
+
+.table-validators thead {
+  font-size: 20px;
+  font-weight: 600; }
+
+.table-validators th {
+  padding: 35px 25px 15px; }
+  .table-validators th:last-child {
+    padding: 35px 25px 15px; }
+
+.table-validators td {
+  padding: 25px 25px 15px; }
+
+.table-validators tbody {
+  font-size: 18px;
+  font-weight: 600; }
+
+.item-activity {
+  border-radius: 3px;
+  padding: 7px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  white-space: nowrap; }
+
+.bg-blue {
+  background: #2932B5; }
+
+.bg-orange {
+  background: #FF8700; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -1426,7 +1553,25 @@ h2 {
       height: 50px;
       font-size: 16px; }
   .prosmining .profile-top {
-    margin: 0 0 70px; } }
+    margin: 0 0 70px; }
+  .table-validators td {
+    padding: 10px 15px; }
+  .table-validators tbody {
+    font-size: 16px; }
+  .table-validators thead {
+    font-size: 18px; }
+  .table-validators th:last-child, .table-validators th {
+    padding: 10px 15px; }
+  .form-search input {
+    font-size: 16px; }
+  .reward-box {
+    margin: 0 0 40px; }
+    .reward-box p {
+      font-size: 18px;
+      margin: 0 0 20px; }
+    .reward-box .btn {
+      height: 60px;
+      font-size: 16px; } }
 
 @media only screen and (max-width: 768px) {
   .tabs__caption-transactions li {
