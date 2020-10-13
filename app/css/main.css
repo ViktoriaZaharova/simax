@@ -838,16 +838,16 @@ button {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: relative;
-    text-align: center;
     background: #141A21 url("../img/pattern4.png") no-repeat right bottom;
       background-size: contain;
-    border-radius: 3px;
-    text-align: left; }
+    border-radius: 3px; }
 
 .modal__div-max {
   max-width: 1070px; }
   .modal__div-max .modal__wrapper {
-    padding: 127px 0 53px; }
+    padding: 127px 0 53px;
+    background: #141A21 url("../img/pattern5.png") no-repeat right bottom;
+      background-size: contain; }
   .modal__div-max .total-sum {
     text-align: left; }
 
@@ -960,6 +960,53 @@ button {
   padding: 68px 0 0;
   width: 100%; }
 
+.table-responsive {
+  width: 100%;
+  overflow-x: auto; }
+
+table {
+  background: #19202A;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif; }
+  table thead {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left; }
+  table th {
+    padding: 35px 20px 35px 50px; }
+    table th:last-child {
+      padding-right: 50px; }
+  table tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+  table .icon-arrow {
+    display: inline;
+    margin: 0 0 0 25px; }
+  table tbody {
+    font-size: 20px;
+    font-weight: 500; }
+    table tbody tr:last-child {
+      border: none; }
+  table td {
+    padding: 15px 50px; }
+
+.status-transaction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  font-weight: 500; }
+  .status-transaction p {
+    max-width: 100px; }
+  .status-transaction .icon-arrow {
+    width: 31px;
+    height: 28px;
+    min-width: 31px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -975,7 +1022,25 @@ button {
     padding: 20px 30px;
     font-size: 18px; }
   .btn-add {
-    font-size: 16px; } }
+    font-size: 16px; }
+  table thead {
+    font-size: 18px; }
+  table th {
+    padding: 20px 15px; }
+    table th:last-child {
+      padding: 20px 15px; }
+  table td {
+    padding: 15px; }
+  table tbody {
+    font-size: 16px; }
+  .status-transaction {
+    font-size: 16px; }
+    .status-transaction .icon-arrow {
+      width: 20px;
+      height: 20px;
+      min-width: 20px; }
+  table .icon-arrow {
+    margin: 0 0 0 10px; } }
 
 @media only screen and (max-width: 992px) {
   .main-image {
@@ -1078,7 +1143,9 @@ button {
   .links-edit {
     font-size: 18px; }
   .form-profile label {
-    max-width: none; } }
+    max-width: none; }
+  .btn-add {
+    margin: 0 0 20px; } }
 
 @media only screen and (max-width: 480px) {
   .description-generation-profile strong {
