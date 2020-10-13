@@ -149,7 +149,7 @@ h1
 
 .tabs__caption
   display: flex
-  align-items: center
+  align-items: stretch
   flex-wrap: wrap
   justify-content: space-between
   max-width: 567px
@@ -259,6 +259,7 @@ button
   width: 100%
   margin: 0 0 10px
   display: block
+  text-align: left
 
 .btn
   display: flex
@@ -695,6 +696,14 @@ button
     background: #141A21 url("../img/pattern4.png") no-repeat right bottom
       size: contain
     border-radius: 3px
+    text-align: left
+
+.modal__div-max
+  max-width: 1070px
+  .modal__wrapper
+    padding: 127px 0 53px
+  .total-sum
+    text-align: left
 
 .text-modal
   font-size: 24px
@@ -725,7 +734,65 @@ button
   max-width: 178px
   width: 100%
 
+//.transactions
+.transactions
+  .profile-top
+    margin: 0 0 84px
+    .container
+      max-width: 1200px
 
+
+.btn-add
+  display: flex
+  align-items: center
+  color: #fff
+  font-size: 24px
+  font-weight: 500
+  margin: 0 0 47px
+  width: fit-content
+  &:hover
+    color: $accent
+
+.btn-add-icon
+  display: flex
+  align-items: center
+  justify-content: center
+  border-radius: 3.69231px
+  margin: 0 33px 0 0
+  box-shadow: 0px 4px 30px rgba(15, 223, 144, 0.4)
+  background: linear-gradient(180deg, #0EB879 0%, #0FDF90 100%)
+  width: 60px
+  height: 60px
+  min-width: 60px
+
+.tabs__caption-transactions
+  max-width: none
+  font-size: 20px
+  font-family: 'Lato', sans-serif
+  justify-content: flex-start
+  align-items: stretch
+  font-weight: normal
+  margin: 0
+  &:before
+    display: none
+  li
+    padding: 36px 66px
+    border-radius: 3px
+    margin: 0 20px 0 0
+    background: rgba(#2932B5, .2)
+    color: rgba(#fff, .3)
+    &:before
+      display: none
+    &:last-child
+      margin: 0
+  .active
+    color: #fff
+    background: #2932B5
+    font-weight: 800
+
+.tabs__content-transactions
+  padding: 68px 0 0
+  width: 100%
 
 @import "media"
 // Всегда в конце
