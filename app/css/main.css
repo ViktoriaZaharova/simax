@@ -66,6 +66,105 @@ body {
   background: #151B22;
   color: #fff; }
 
+.light-theme {
+  background: #EFF1F3;
+  color: #303030; }
+  .light-theme .input-title {
+    color: rgba(48, 48, 48, 0.3); }
+  .light-theme input, .light-theme textarea {
+    border-color: rgba(48, 48, 48, 0.25);
+    color: #303030; }
+    .light-theme input::-webkit-input-placeholder, .light-theme textarea::-webkit-input-placeholder {
+      color: #303030; }
+    .light-theme input::-moz-placeholder, .light-theme textarea::-moz-placeholder {
+      color: #303030; }
+    .light-theme input::-ms-input-placeholder, .light-theme textarea::-ms-input-placeholder {
+      color: #303030; }
+    .light-theme input::placeholder, .light-theme textarea::placeholder {
+      color: #303030; }
+  .light-theme .checkbox, .light-theme .links-grey {
+    color: rgba(48, 48, 48, 0.8); }
+  .light-theme .profile-information__box-window {
+    background: #FFFFFF; }
+  .light-theme .menu-mobile {
+    background: #EFF1F3 url("../img/pattern3.png") right center no-repeat;
+      background-size: contain; }
+  .light-theme .menu li a {
+    color: #303030; }
+    .light-theme .menu li a .img-hover {
+      display: none; }
+    .light-theme .menu li a:hover .img-hover {
+      display: block; }
+    .light-theme .menu li a:hover .img-default {
+      display: none; }
+  .light-theme .menu li .active .img-hover {
+    display: block; }
+  .light-theme .menu li .active .img-default {
+    display: none; }
+  .light-theme .menu-icon {
+    background: #FFFFFF; }
+  .light-theme .links-edit {
+    color: rgba(48, 48, 48, 0.5); }
+  .light-theme .profile-information__box-window-item {
+    color: rgba(48, 48, 48, 0.5); }
+  .light-theme .tabs__caption-profile li {
+    background: #FFFFFF;
+    color: #303030; }
+  .light-theme .tabs__content-profile {
+    background: #fff; }
+  .light-theme table {
+    background: #fff;
+    color: #303030; }
+  .light-theme .btn-add {
+    color: #303030; }
+  .light-theme .tabs__caption-transactions li {
+    color: rgba(48, 48, 48, 0.3); }
+  .light-theme .tabs__caption-transactions li.active {
+    color: #fff; }
+  .light-theme table tbody tr {
+    border-bottom-color: rgba(48, 48, 48, 0.15); }
+  .light-theme table thead {
+    border-bottom-color: rgba(48, 48, 48, 0.05); }
+  .light-theme .about-box {
+    background: #fff url("../img/pattern9.png") no-repeat right bottom;
+      background-size: contain; }
+  .light-theme .how-to-get__box, .light-theme .prosmining-box, .light-theme .prosmining-rate-box, .light-theme .transaction-reward__box {
+    background: #fff; }
+  .light-theme .prosmining {
+    background: #EFF1F3 url("../img/pattern8.png") no-repeat right top;
+      background-size: contain; }
+  .light-theme .form-prosmining-box input {
+    color: #303030; }
+    .light-theme .form-prosmining-box input::-webkit-input-placeholder {
+      color: #303030; }
+    .light-theme .form-prosmining-box input::-moz-placeholder {
+      color: #303030; }
+    .light-theme .form-prosmining-box input::-ms-input-placeholder {
+      color: #303030; }
+    .light-theme .form-prosmining-box input::placeholder {
+      color: #303030; }
+  .light-theme .item-activity {
+    color: #fff; }
+  .light-theme .form-search input {
+    background: rgba(239, 241, 243, 0.5);
+    color: rgba(48, 48, 48, 0.5); }
+    .light-theme .form-search input::-webkit-input-placeholder {
+      color: rgba(48, 48, 48, 0.5); }
+    .light-theme .form-search input::-moz-placeholder {
+      color: rgba(48, 48, 48, 0.5); }
+    .light-theme .form-search input::-ms-input-placeholder {
+      color: rgba(48, 48, 48, 0.5); }
+    .light-theme .form-search input::placeholder {
+      color: rgba(48, 48, 48, 0.5); }
+  .light-theme .form-settings .input-title {
+    color: #303030; }
+  .light-theme .clarification {
+    color: rgba(48, 48, 48, 0.5); }
+  .light-theme .form-settings .input-wrapper input {
+    border: none;
+    -webkit-box-shadow: inset 0px -1px 20px rgba(0, 0, 0, 0.07), inset 0px 1px 20px rgba(0, 0, 0, 0.07);
+            box-shadow: inset 0px -1px 20px rgba(0, 0, 0, 0.07), inset 0px 1px 20px rgba(0, 0, 0, 0.07); }
+
 html, body {
   overflow-x: hidden; }
 
@@ -1504,6 +1603,15 @@ h2 {
   margin: 0 0 30px;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.5); }
+
+.modal__div-light .modal__wrapper {
+  background: #EFF1F3 url("../img/pattern4.png") no-repeat right bottom;
+    background-size: contain;
+  color: #303030; }
+
+.modal__div-max-light .modal__wrapper {
+  background: #EFF1F3 url("../img/pattern5.png") no-repeat right bottom;
+    background-size: contain; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */

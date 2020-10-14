@@ -72,6 +72,90 @@ body
   background: #151B22
   color: #fff
 
+.light-theme
+  background: #EFF1F3
+  color: #303030
+  .input-title
+    color: rgba(#303030, .3)
+  input, textarea
+    border-color: rgba($accent2, .25)
+    color: $accent2
+    &::placeholder
+      color: $accent2
+  .checkbox, .links-grey
+    color: rgba($accent2, .8)
+  .profile-information__box-window
+    background: #FFFFFF
+  .menu-mobile
+    background: #EFF1F3 url("../img/pattern3.png") right center no-repeat
+      size: contain
+  .menu li
+    a
+      color: $accent2
+      .img-hover
+        display: none
+      &:hover
+        .img-hover
+          display: block
+        .img-default
+          display: none
+    .active
+      .img-hover
+        display: block
+      .img-default
+        display: none
+  .menu-icon
+    background: #FFFFFF
+  .links-edit
+    color: rgba($accent2, .5)
+  .profile-information__box-window-item
+    color: rgba(#303030, .5)
+  .tabs__caption-profile li
+    background: #FFFFFF
+    color: $accent2
+  .tabs__content-profile
+    background: #fff
+  table
+    background: #fff
+    color: $accent2
+  .btn-add
+    color: $accent2
+  .tabs__caption-transactions li
+    color: rgba($accent2, .3)
+  .tabs__caption-transactions li.active
+    color: #fff
+  table tbody tr
+    border-bottom-color: rgba($accent2, .15)
+  table thead
+    border-bottom-color: rgba($accent2, .05)
+  .about-box
+    background: #fff url("../img/pattern9.png") no-repeat right bottom
+      size: contain
+  .how-to-get__box, .prosmining-box, .prosmining-rate-box, .transaction-reward__box
+    background: #fff
+  .prosmining
+    background: #EFF1F3 url("../img/pattern8.png") no-repeat right top
+      size: contain
+  .form-prosmining-box input
+    color: $accent2
+    &::placeholder
+      color: $accent2
+  .item-activity
+    color: #fff
+  .form-search input
+    background: rgba(#EFF1F3, .5)
+    color: rgba($accent2, .5)
+    &::placeholder
+      color: rgba($accent2, .5)
+  .form-settings .input-title
+    color: $accent2
+  .clarification
+    color: rgba($accent2, .5)
+  .form-settings .input-wrapper input
+    border: none
+    box-shadow: inset 0px -1px 20px rgba(0, 0, 0, 0.07), inset 0px 1px 20px rgba(0, 0, 0, 0.07)
+
+
 html, body
   overflow-x: hidden
 
@@ -1213,6 +1297,17 @@ h2
   margin: 0 0 30px
   font-size: 18px
   color: rgba(#fff, .5)
+
+.modal__div-light
+  .modal__wrapper
+    background: #EFF1F3 url("../img/pattern4.png") no-repeat right bottom
+      size: contain
+    color: $accent2
+
+.modal__div-max-light
+  .modal__wrapper
+    background: #EFF1F3 url("../img/pattern5.png") no-repeat right bottom
+      size: contain
 
 @import "media"
 // Всегда в конце
